@@ -1,12 +1,15 @@
 Dockerized Shiny App
 =======================
 
-This is the Dockerized Shiny App [Wordcloud](http://shiny.rstudio.com/gallery/word-cloud.html)
+This is a Dockerized Shiny App with docker files from flaviobarros dockerized Wordcloud
 
 This Dockerfile is based on Debian "testing" and r-base image.
 
-The image is available from [Docker Hub](https://registry.hub.docker.com/u/flaviobarros/shiny-wordcloud/).
+flaviobarros image is available from [Docker Hub](https://registry.hub.docker.com/u/flaviobarros/shiny-wordcloud/).
 
+You can find flaviobarros source code [here](https://github.com/flaviobarros/shiny-wordcloud)
+
+Instructions from flaviobarros tutorial:
 ## Usage:
 
 To run this Shiny App on your computer:
@@ -30,7 +33,7 @@ This project can be used as a start point to build any dockerized shiny app that
 Possible use cases are:
 
 * Deploy a single Shiny App at AWS, Google Compute Engine, Azure or a private server with docker.
-* Deploy Shiny Apps at a docker based PaaS as [dokku](https://github.com/progrium/dokku). 
+* Deploy Shiny Apps at a docker based PaaS as [dokku](https://github.com/progrium/dokku).
 
 ## Building your own Shiny App:
 
@@ -52,5 +55,3 @@ If you have a PaaS with Dockerfiles support, like [Deis](http://deis.io/) or [Do
 ## IMPORTANT
 
 This project is not an alternative Shiny Server. It exposes PORT 80 (not 3838) and is intented to serve only single shiny apps.
-
-
